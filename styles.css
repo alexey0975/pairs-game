@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+  
+  body {
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+      line-height: 20px;
+      color: #000;
+  }
+  
+  .container {
+    width: 540px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .cards-container {
+    width: 100%;
+    padding: 20px 40px;
+    margin: 0;
+    background-color: #465fcc;
+    box-shadow: 0 0 10px 1px #465fcc;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 1px solid #0a3ead;
+    border-radius: 7%;
+    margin-bottom: 10px;
+    list-style-type: none;
+  
+  }
+  
+  .card-revert {
+    font-size: 0;
+    background: linear-gradient(to left top, #00c2fd, #0011fd);
+    cursor: pointer;
+    transition: box-shadow 300ms;
+  }
+  
+  .card-revert:hover {
+    box-shadow: 0 0 25px 5px #0a3ead;
+  }
+  
+  .card-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .repeat-button {
+    margin: 30px auto 0;
+    padding: 15px 25px;
+    font-size: 25px;
+    border: 1px solid #0a3ead;
+    border-radius: 15px;
+    background-color: #465fcc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .repeat-button:hover {
+    opacity: 0.8;
+    box-shadow:0 0 10px 1px #0a3ead;
+    transition: 300ms;
+  }
+  
+  .timer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 10px;
+  }
+  
+  .timer-box {
+    width: 50px;
+    height: 50px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    border: 1px solid #0a3ead;
+    border-radius: 15px;
+    background-color: #465fcc;
+    color: #fff;
+  }
+
+  .form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .label {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .label:not(:last-child) {
+      margin-bottom: 6px;
+  }
+
+  .input-descr {
+      margin-right: 5px;
+  }
+
+  .submit-btn {
+      align-self: flex-end;
+      margin: 0;
+      padding: 5px 25px;
+      border: 1px solid #fff;
+      color: #fff;
+      border-radius: 5px;
+      background-color: transparent;
+      cursor: pointer;
+      transition: background-color .3s linear;
+  }
+
+  .submit-btn:hover {
+      background-color: #0a3ead;
+  }
+
+  
+  
